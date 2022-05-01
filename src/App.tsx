@@ -4,7 +4,7 @@ import { AppRoutes } from "./routes/AppRouters"
 
 function App() {
   return <>
-    <AppBar position="static">
+    <AppBar position="fixed">
       <Toolbar>
         <Link href="/" underline="none" color={"white"}>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
@@ -13,7 +13,9 @@ function App() {
         </Link>
       </Toolbar>
     </AppBar>
-    <AppRoutes />
+    <div className="mt-5 p-3">
+      <AppRoutes />
+    </div>
   </>
 }
 
