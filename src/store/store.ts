@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import ArticlesApiSlice from "./Articles/reducer";
 import UsersApiSlice from "./Users/reducer";
-UsersApiSlice
+
 
 
 const store = configureStore({
